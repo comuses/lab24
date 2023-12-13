@@ -3,15 +3,49 @@
 
 
     <head>
-        <title>My Portfolio</title>
+        <title>Defence Website</title>
+      <style>
+     
+
+        .container {
+            max-width: 840px;
+            margin: auto;
+            
+        }
+
+        .center-1{
+            
+        margin: auto;
+        width: 30%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+        }
+
+        .photo{
+            
+            margin: auto;
+            width: 100%;
+            
+            }
+
+            .right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+} 
+        
+      </style>
+
     </head>
 
 
     <body>
+        <div class="container">
 
-
-        <div>
-            <img width="200" height="200" src="images/lion.jpg" />
+        <div class="center-1" >
+            <img class="photo" width="200" height="200" src="images/lion.jpg" />
             <h1>Abrha Gerase</h1>
             <h3>Web Developer At Defence</h3>
            <p> <i> {{ Practice makes Perfect}} </i> </p>
@@ -24,8 +58,7 @@
                 <li>A reader</li>
                 <li>A Web Designer</li>
                 </ul>
-            </div>
-            <div>
+            
                 <h3>I like to</h3>
                 <ul>
                 <li>Watch football</li>
@@ -33,83 +66,57 @@
                 <li>Eat Vegitables</li>
                 </ul>
             </div>
-            <div>
-                <img width="200" height="200" src="images/lion.jpg" />
-                <img width="200" height="200" src="images/zebra.jpg" />
-                <img width="200" height="200" src="images/birds.jpeg" />
-                <img width="200" height="200" src="images/peacock.jpeg" />
-            </div>
+            
+                <div>
 
-            <div>
-                <h3>Links</h3>
-                <ul>
-                  <li>
-                    <a href="https://github.com/<user>">Github</a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/<user>">Twitter</a>
-                  </li>
-                  <li>
-                    <a href="https://linkedin.com/in/<user>">Linkedin</a>
-                  </li>
-                </ul>
-          </div>
+                    <br>
+                </div>
+           
     
         </div>
+        
         <div>
-
-          <h2>Form and Form Elements</h2>
-          <form>
-              <p>Gender : 
-                  <label>Male</label>
-                  <input type="radio" name="gender" value="male" />
-                  <label>Female</label> 
-                  <input type="radio" name="gender" value="female" />
-              </p>
-              <p>
-                  Language: 
-                  <ul style="list-style-type:none;">
-                      <li>
-                          <input type="checkbox" name="language" value="english" /> English
-                      </li>
-                      <li>
-                          <input type="checkbox" name="language" value="german" /> German
-                      </li>
-      
-      
-                      <li>
-                          <input type="checkbox" name="language" value="arabic" /> Arabic
-                      </li>
-                  </ul>
-              </p>
-              <p>
-                  <label>Nationality: </label>
-                  <select name="nationality">
-                      <option value="british">British</option>
-                      <option value="german">German</option>
-                      <option value="uae">UAE</option>
-                      <option value="others">Others</option>
-                  </select>
-              </p>
-              <p>
-                  <label>Username : </label>
-                  <input type="text" />
-              </p>
-              <p>
-                  <label>Password : </label>
-                  <input type="password" />
-              </p>
-              <p>
-                  <label>Brief Info About You: </label>
-                  <textarea name="briefInfo" rows="5" cols="40">
-                  </textarea>
-              </p>
-              <p>
-                  <button type="submit">Submit</button>
-              </p>
-          </form>
-      
+            <img width="200" height="200" src="images/lion.jpg" />
+            <img width="200" height="200" src="images/zebra.jpg" />
+            <img width="200" height="200" src="images/birds.jpeg" />
+            <img width="200" height="200" src="images/peacock.jpeg" />
         </div>
 
+
+        ​​<div>
+            <p>
+            <form action="#">
+         <label for="email">
+         Email: <input type="email" id="email" placeholder="Enter your email" /> 
+         </label>
+        </p>
+         <p>
+         <label for="message">
+         Message: <textarea id="message">Your Message</textarea>
+         </label>
+         </p>
+         <p>
+         <input type="submit" valid="Send Message" />
+            </form>
+        </p>
+         </div>
+         
+         <div>
+            <h3>Links</h3>
+            <ul>
+              <li>
+                <a href="Contact_us.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/<user>">Twitter</a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/<user>">Linkedin</a>
+              </li>
+            </ul>
+      </div>
+
+
+    </div>
     </body>
 </html>
