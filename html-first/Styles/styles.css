@@ -1,0 +1,96 @@
+
+            .container {
+            max-width: 820px;
+            margin:0 auto;
+            border: 1px solid #73AD21;
+            padding: 10px;
+            margin-bottom: auto;
+            
+        }
+        .center-1{
+            
+            margin: auto;
+            width: 30%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+            text-align: center;
+            }
+            .photo{
+            
+            margin: auto;
+            width: 100%;
+            
+            }
+            .about li{
+            color:blueviolet;
+            font-size: 1em;
+         } 
+         .mycontainer{
+            
+            width:100%;
+            overflow:auto;
+         }
+    
+         div.mycontainer div {
+            width:33%;  
+            float:left;
+            
+            }
+            .float-1{
+                width: 30%;
+                float: left;
+                
+            }
+
+            .float{
+                width: 50%;
+                float: right;
+            }
+
+            .about-grid{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                }  
+            @media (max-width:480px){
+                .about-grid{
+                    grid-template-columns: 100%;
+                }
+            }
+
+            .myproject-heading{
+                text-align: center;
+            }
+
+            .project-grid{
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+
+            .project-image{
+                justify-self: center;
+                padding: 4%;
+            }
+
+            @media (max-width:650px){
+                .project-grid{
+                    grid-template-columns: 100%;
+                }
+            }
+            .links-and-contact{
+              display: grid;  
+              grid-template-columns: 30% 70% ;
+
+            }
+            .links{
+                justify-self: center;
+            }
+            .links-list{
+                list-style: none;
+                padding: 0;
+            }
+            @media (max-width:650px){
+                .links-and-contact{
+                    grid-template-columns: 100%;
+                }
+            }
+  
